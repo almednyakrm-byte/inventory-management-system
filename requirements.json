@@ -1,0 +1,42 @@
+{
+  "project_name": "نظام إدارة مخزونات ومخازن",
+  "project_type": "inventory_management_system",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "مخازن",
+    "مخزونات",
+    "فواتير"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_stores",
+    "list_inventory",
+    "list_invoices",
+    "create_store",
+    "create_inventory",
+    "create_invoice"
+  ],
+  "permissions": {
+    "guest": [
+      "index"
+    ],
+    "user": [
+      "login",
+      "register",
+      "list_stores",
+      "list_inventory"
+    ],
+    "admin": [
+      "login",
+      "register",
+      "list_stores",
+      "list_inventory",
+      "list_invoices",
+      "create_store",
+      "create_inventory",
+      "create_invoice"
+    ]
+  }
+}
